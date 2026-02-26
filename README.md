@@ -110,8 +110,8 @@ The solution combines **data cleaning**, **exploratory data analysis**, and **pr
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/SyusufWaliyyi/high_recipe_website_traffic.git
-cd high_recipe_website_traffic
+git clone https://github.com/SyusufWaliyyi/high_recipe_website_traffic_prediction.git
+cd high_recipe_website_traffic_prediction
 
 ```
 2️⃣ Create Virtual Environment (Optional but Recommended)
