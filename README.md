@@ -113,6 +113,8 @@ The solution combines **data cleaning**, **exploratory data analysis**, and **pr
 git clone https://github.com/SyusufWaliyyi/high_recipe_website_traffic.git
 cd high_recipe_website_traffic
 
+```
+---
 Run notebooks in order:
 
 1. `1_data_cleaning.ipynb`
