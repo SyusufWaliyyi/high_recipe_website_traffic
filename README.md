@@ -144,8 +144,8 @@ recipe-traffic-prediction/
 
 ### 1️⃣ Clone the Repository
 ```bash
-git clone https://github.com/your-username/recipe-traffic-prediction.git
-cd recipe-traffic-prediction
+git clone https://github.com/SyusufWaliyyi/high_recipe_website_traffic_prediction.git
+cd high_recipe_website_traffic_prediction
 ````
 
 ### 2️⃣ Create Virtual Environment (Optional but Recommended)
@@ -231,7 +231,7 @@ Perfect for **data analyst**, **machine learning**, or **analytics-driven busine
 
 If you’d like to discuss this project or collaborate:
 
-* **GitHub:** [https://github.com/your-username](https://github.com/your-username)
-* **LinkedIn:** [https://linkedin.com/in/your-profile](https://linkedin.com/in/your-profile)
+* **GitHub:** [https://github.com/your-username](https://github.com/SyusufWaliyyi/)
+* **LinkedIn:** [https://linkedin.com/in/your-profile](https://linkedin.com/in/abbanislam)
 
 ```
