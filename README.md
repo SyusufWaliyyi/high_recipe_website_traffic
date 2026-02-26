@@ -112,3 +112,60 @@ The solution combines **data cleaning**, **exploratory data analysis**, and **pr
 ```bash
 git clone https://github.com/SyusufWaliyyi/high_recipe_website_traffic.git
 cd high_recipe_website_traffic
+
+Run notebooks in order:
+
+1. `1_data_cleaning.ipynb`
+
+2. `02_eda.ipynb`
+
+3. `03_model_training.ipynb`
+
+4. `04_model_evaluation.ipynb`
+
+
+💼 Business Impact
+Metric of Interest
+
+- Percentage of High-Traffic Recipes featured on the homepage
+
+Results
+
+  - Current baseline: 60.6%
+  - With model-driven selection:
+      - Probability increases to 80%+
+      - Reduced risk of low-engagement days
+
+🚀 Deployment & Integration
+
+- Deploy the Logistic Regression model as a real-time scoring tool within the CMS.
+
+- Use as a Pre-Publishing Filter for editorial teams.
+
+- With larger datasets, migrate to Random Forest for improved predictive power.
+
+- Implement monthly retraining using new traffic data.
+
+🧠 Final Recommendations
+
+- Prioritize:
+
+  - Vegetable
+  - Potato
+  - Pork recipes
+
+Avoid featuring beverages in high-visibility sections.
+
+Establish continuous feedback and model retraining cycles.
+
+⭐ Why This Project Matters
+
+This project demonstrates the ability to:
+
+- Translate raw data into business value
+
+- Apply machine learning to real-world decision-making
+
+- Communicate insights clearly to non-technical stakeholders
+
+- Perfect for data analyst, machine learning, or analytics-driven business roles.
