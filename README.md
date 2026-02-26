@@ -115,16 +115,21 @@ cd high_recipe_website_traffic
 
 ```
 2️⃣ Create Virtual Environment (Optional but Recommended)
+```bash
 python -m venv venv
 source venv/bin/activate   # Windows: venv\Scripts\activate
+```
 
 3️⃣ Install Dependencies
+```bash
 pip install -r requirements.txt
+```
 
 4️⃣ Run the Notebooks
-
+```bash
 Open Jupyter Notebook or Jupyter Lab:
 jupyter notebook
+```
 ---
 Run notebooks in order:
 
