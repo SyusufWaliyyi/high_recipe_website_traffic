@@ -34,3 +34,81 @@ The solution combines **data cleaning**, **exploratory data analysis**, and **pr
 ---
 
 ## 🗂️ Project Structure
+
+---
+
+## 🧹 Data Validation & Cleaning
+
+- **Dataset size:** 947 recipes
+- **Missing values:**  
+  - 52 missing entries in calories, protein, sugar, and carbohydrates  
+  - Imputed using **median values**
+- **Category refinement:**  
+  - `"Chicken Breast"` consolidated into `"Chicken"`
+- **Servings:**  
+  - Text noise removed (e.g., *"as a snack"*)
+  - Converted to numeric format
+- **Target variable:**  
+  - `high_traffic` converted to binary:
+    - `1` → High Traffic
+    - `0` → Low or Missing Traffic
+
+---
+
+## 📊 Key Insights from Exploratory Data Analysis
+
+### 🔑 Category Dominance
+- Recipe category is the **strongest predictor** of traffic.
+- Highest-performing categories:
+  - **Vegetable**
+  - **Potato**
+
+### 🥗 Nutrition vs Preference
+- High calorie content does **not** guarantee popularity.
+- Users favor **meal type and category** over nutrient density.
+
+### ☕ Underperforming Segment
+- **Beverages** consistently generate low traffic regardless of nutrition.
+
+---
+
+## 🤖 Model Training
+
+### Problem Type
+- **Binary Classification**
+
+### Features Used
+- Category
+- Servings
+- Calories
+- Carbohydrates
+- Sugar
+- Protein
+
+### Models Implemented
+| Model | Purpose |
+|-----|--------|
+| Logistic Regression | Baseline, interpretable, fast |
+| Random Forest Classifier | Captures non-linear relationships |
+
+---
+
+## 🧪 Model Evaluation
+
+### Evaluation Metrics
+- **Accuracy**
+- **Precision** (critical to avoid false positives)
+
+### Key Findings
+- Random Forest handled categorical variation more robustly.
+- Confusion matrices were used to visualize prediction errors.
+- Both models achieved **reliable performance**, with Random Forest slightly outperforming in robustness.
+
+---
+
+## 📦 Installation & Usage
+
+### 1️⃣ Clone the Repository
+```bash
+git clone https://github.com/your-username/recipe-traffic-prediction.git
+cd recipe-traffic-prediction
