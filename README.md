@@ -5,7 +5,7 @@ developing the machine learning model to predict which recipes will lead to **hi
 
 ## 👤 Author
 **Shamsuddeen Yusuf**  
-Data Analyst | Machine Learning Enthusiast | Production Engineer  
+Data Analyst | Data Scientist | Machine Learning Enthusiast | Production Engineer  
 
 ---
 
@@ -114,6 +114,17 @@ git clone https://github.com/SyusufWaliyyi/high_recipe_website_traffic.git
 cd high_recipe_website_traffic
 
 ```
+2️⃣ Create Virtual Environment (Optional but Recommended)
+python -m venv venv
+source venv/bin/activate   # Windows: venv\Scripts\activate
+
+3️⃣ Install Dependencies
+pip install -r requirements.txt
+
+4️⃣ Run the Notebooks
+
+Open Jupyter Notebook or Jupyter Lab:
+jupyter notebook
 ---
 Run notebooks in order:
 
